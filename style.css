@@ -1,4 +1,7 @@
-
+html, body {
+    margin: 0; 
+    height: 100%;
+    overflow-x: hidden;}
 .btn{
     background: #00d2b5;
     width: 150px; 
@@ -9,19 +12,29 @@
     background: #fff;
     border: 2px solid #00d2b5;
 }
+.iframe1 {
+    height: 75%;
+   width:100%;
+  }
+  
+  @media only screen and (max-device-width: 10px) {
+    .iframe1 {
+      height:50%;
+    }
+}
 .card{
     border: none;
     border-radius: 6px;
-    transition: .3s all ease;
+   
     position: relative;
-    padding: 20px;
+    padding: 12px;
     height: 14rem;
 }
 
 .card:hover{
     background: #00d2b5;
     color: #fff;
-    transform:scale(1.1)
+    
 }
 
 .faicon{
@@ -179,12 +192,9 @@ hr{
     border-bottom: 1px solid #d0d1d3;
     height: 21px;
    margin-top: -50px;
-    width: 75em;
     margin-left: 12em;
 }
-.para1{
-    margin: 3em 11em;
-}
+
 .num{
     background: #00d2b5;
     height: 2.7em;
@@ -254,11 +264,7 @@ hr{
 .card-text{
     color: gray;
 }
-.card1:hover {
-    background: #00d2b5;
-    transform:scale(1.1);
 
-}
 .card1:hover p{
     color: #fff;
 }
@@ -344,7 +350,7 @@ hr{
     color: #00d2b5;
     margin-left: 2em;
 }
-.link-btn{
+.btn-link{
     background: #00d2b5;
     border: none;
     border-radius: 5px;
@@ -354,3 +360,4 @@ hr{
     bottom: 0;
     right: 0;
 }
+  
