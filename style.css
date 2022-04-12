@@ -13,13 +13,13 @@ html, body {
     border: 2px solid #00d2b5;
 }
 .iframe1 {
-    height: 75%;
+    height: 80%;
    width:100%;
   }
   
-  @media only screen and (max-device-width: 10px) {
+  @media only screen and (max-device-width: 100px) {
     .iframe1 {
-      height:50%;
+      height:100%;
     }
 }
 .card{
